@@ -1,4 +1,4 @@
-((window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/about.js"],{
+((window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/portfolios.js"],{
 
 /***/ "../../../../node_modules/react/index.js":
 /*!*****************************************************************************************************!*\
@@ -5978,21 +5978,21 @@ exports.formatWithValidation = formatWithValidation;
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fabout&absolutePagePath=%2FUsers%2Fsauthrully%2FDesktop%2Fproject%2FProjectNext%2Fportfolio-saudMaruli%2Fpages%2Fabout.js!./":
-/*!*******************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fabout&absolutePagePath=%2FUsers%2Fsauthrully%2FDesktop%2Fproject%2FProjectNext%2Fportfolio-saudMaruli%2Fpages%2Fabout.js ***!
-  \*******************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fportfolios&absolutePagePath=%2FUsers%2Fsauthrully%2FDesktop%2Fproject%2FProjectNext%2Fportfolio-saudMaruli%2Fpages%2Fportfolios.js!./":
+/*!*****************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fportfolios&absolutePagePath=%2FUsers%2Fsauthrully%2FDesktop%2Fproject%2FProjectNext%2Fportfolio-saudMaruli%2Fpages%2Fportfolios.js ***!
+  \*****************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    (window.__NEXT_P=window.__NEXT_P||[]).push(["/about", function() {
-      var page = __webpack_require__(/*! ./pages/about.js */ "./pages/about.js")
+    (window.__NEXT_P=window.__NEXT_P||[]).push(["/portfolios", function() {
+      var page = __webpack_require__(/*! ./pages/portfolios.js */ "./pages/portfolios.js")
       if(true) {
-        module.hot.accept(/*! ./pages/about.js */ "./pages/about.js", function() {
-          if(!next.router.components["/about"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/about.js */ "./pages/about.js")
-          next.router.update("/about", updatedPage.default || updatedPage)
+        module.hot.accept(/*! ./pages/portfolios.js */ "./pages/portfolios.js", function() {
+          if(!next.router.components["/portfolios"]) return
+          var updatedPage = __webpack_require__(/*! ./pages/portfolios.js */ "./pages/portfolios.js")
+          next.router.update("/portfolios", updatedPage.default || updatedPage)
         })
       }
       return { page: page.default || page }
@@ -11143,10 +11143,10 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "./pages/about.js":
-/*!************************!*\
-  !*** ./pages/about.js ***!
-  \************************/
+/***/ "./pages/portfolios.js":
+/*!*****************************!*\
+  !*** ./pages/portfolios.js ***!
+  \*****************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -11165,55 +11165,55 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/sauthrully/Desktop/project/ProjectNext/portfolio-saudMaruli/pages/about.js";
+var _jsxFileName = "/Users/sauthrully/Desktop/project/ProjectNext/portfolio-saudMaruli/pages/portfolios.js";
 
 
 
-var About =
+var Portfolios =
 /*#__PURE__*/
 function (_React$Component) {
-  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(About, _React$Component);
+  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(Portfolios, _React$Component);
 
-  function About() {
-    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, About);
+  function Portfolios() {
+    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Portfolios);
 
-    return Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(About).apply(this, arguments));
+    return Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Portfolios).apply(this, arguments));
   }
 
-  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(About, [{
+  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Portfolios, [{
     key: "render",
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_layouts_BaseLayout__WEBPACK_IMPORTED_MODULE_6__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 7
+          lineNumber: 9
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h1", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 8
+          lineNumber: 10
         },
         __self: this
-      }, "About page from Class Componenet"));
+      }, "Portfolios page from Class Componenet"));
     }
   }]);
 
-  return About;
+  return Portfolios;
 }(react__WEBPACK_IMPORTED_MODULE_5___default.a.Component);
 
-/* harmony default export */ __webpack_exports__["default"] = (About);
+/* harmony default export */ __webpack_exports__["default"] = (Portfolios);
 
 /***/ }),
 
-/***/ 6:
-/*!***********************************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Fabout&absolutePagePath=%2FUsers%2Fsauthrully%2FDesktop%2Fproject%2FProjectNext%2Fportfolio-saudMaruli%2Fpages%2Fabout.js ***!
-  \***********************************************************************************************************************************************************************/
+/***/ 7:
+/*!*********************************************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fportfolios&absolutePagePath=%2FUsers%2Fsauthrully%2FDesktop%2Fproject%2FProjectNext%2Fportfolio-saudMaruli%2Fpages%2Fportfolios.js ***!
+  \*********************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fabout&absolutePagePath=%2FUsers%2Fsauthrully%2FDesktop%2Fproject%2FProjectNext%2Fportfolio-saudMaruli%2Fpages%2Fabout.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fabout&absolutePagePath=%2FUsers%2Fsauthrully%2FDesktop%2Fproject%2FProjectNext%2Fportfolio-saudMaruli%2Fpages%2Fabout.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fportfolios&absolutePagePath=%2FUsers%2Fsauthrully%2FDesktop%2Fproject%2FProjectNext%2Fportfolio-saudMaruli%2Fpages%2Fportfolios.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fportfolios&absolutePagePath=%2FUsers%2Fsauthrully%2FDesktop%2Fproject%2FProjectNext%2Fportfolio-saudMaruli%2Fpages%2Fportfolios.js!./");
 
 
 /***/ }),
@@ -11229,5 +11229,5 @@ module.exports = dll_7d44bc5b6a50749ece98;
 
 /***/ })
 
-},[[6,"static/runtime/webpack.js","styles"]]]));;
-//# sourceMappingURL=about.js.map
+},[[7,"static/runtime/webpack.js","styles"]]]));;
+//# sourceMappingURL=portfolios.js.map

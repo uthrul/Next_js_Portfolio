@@ -1,9 +1,11 @@
 import React from 'react';
 import BaseLayout from '../components/layouts/BaseLayout';
 
-class Index extends React.Component {
-    constructor() {
-        super();
+import SuperComponent from '../components/SuperComponent';
+
+class Index extends SuperComponent {
+    constructor(props) {
+        super(props);
 
         this.state = {
             title: 'I am Index Page '
