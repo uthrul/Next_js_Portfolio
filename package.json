@@ -5,14 +5,16 @@
   "main": "index.js",
   "scripts": {
     "dev": "next",
-  "build": "next build",
-  "start": "next start"
-},
+    "build": "next build",
+    "start": "next start"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
     "next": "^8.0.3",
+    "node-sass": "^4.11.0",
     "react-dom": "^16.8.4"
   }
 }
