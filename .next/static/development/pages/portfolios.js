@@ -13000,7 +13000,7 @@ function (_React$Component) {
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!*********************************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fportfolios&absolutePagePath=%2FUsers%2Fsauthrully%2FDesktop%2Fproject%2FProjectNext%2Fportfolio-saudMaruli%2Fpages%2Fportfolios.js ***!
   \*********************************************************************************************************************************************************************************/
@@ -13023,5 +13023,5 @@ module.exports = dll_7d44bc5b6a50749ece98;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js","styles"]]]));;
+},[[4,"static/runtime/webpack.js","styles"]]]));;
 //# sourceMappingURL=portfolios.js.map
