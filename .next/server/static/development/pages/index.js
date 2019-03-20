@@ -93,6 +93,42 @@ module.exports =
 /************************************************************************/
 /******/ ({
 
+/***/ "./components/layouts/BaseLayout.js":
+/*!******************************************!*\
+  !*** ./components/layouts/BaseLayout.js ***!
+  \******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _shared_Header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../shared/Header */ "./components/shared/Header.js");
+var _jsxFileName = "/Users/sauthrully/Desktop/project/ProjectNext/portfolio-saudMaruli/components/layouts/BaseLayout.js";
+
+
+
+var BaseLayout = function BaseLayout(props) {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_shared_Header__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }), props.children);
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (BaseLayout);
+
+/***/ }),
+
 /***/ "./components/shared/Header.js":
 /*!*************************************!*\
   !*** ./components/shared/Header.js ***!
@@ -160,13 +196,7 @@ function (_React$Component) {
           lineNumber: 13
         },
         __self: this
-      }, " Home ")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 15
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
+      }, " Home ")), "||", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
         href: "/about",
         __source: {
           fileName: _jsxFileName,
@@ -179,13 +209,7 @@ function (_React$Component) {
           lineNumber: 17
         },
         __self: this
-      }, " About ")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 19
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
+      }, " About ")), "||", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
         href: "/portfolios",
         __source: {
           fileName: _jsxFileName,
@@ -198,13 +222,7 @@ function (_React$Component) {
           lineNumber: 21
         },
         __self: this
-      }, " Portfolios ")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 23
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
+      }, " Portfolios ")), "||", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
         href: "/blogs",
         __source: {
           fileName: _jsxFileName,
@@ -217,13 +235,7 @@ function (_React$Component) {
           lineNumber: 25
         },
         __self: this
-      }, " Blogs ")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 27
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
+      }, " Blogs ")), "||", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
         href: "/cv",
         __source: {
           fileName: _jsxFileName,
@@ -1452,7 +1464,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _components_shared_Header__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/shared/Header */ "./components/shared/Header.js");
+/* harmony import */ var _components_layouts_BaseLayout__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/layouts/BaseLayout */ "./components/layouts/BaseLayout.js");
 
 
 
@@ -1476,7 +1488,7 @@ function (_React$Component) {
   Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Index, [{
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_layouts_BaseLayout__WEBPACK_IMPORTED_MODULE_6__["default"], {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 8
@@ -1488,20 +1500,7 @@ function (_React$Component) {
           lineNumber: 9
         },
         __self: this
-      }, "I am index page from Class Componenet"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_shared_Header__WEBPACK_IMPORTED_MODULE_6__["default"], {
-        title: 'I am a header component',
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 10
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h2", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 11
-        },
-        __self: this
-      }, " I am header subtitle")));
+      }, "I am index page from Class Componenet"));
     }
   }]);
 
