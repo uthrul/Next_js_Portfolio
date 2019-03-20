@@ -1,0 +1,58 @@
+{
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!node_modules/sass-loader/lib/loader.js??ref--5-2!styles/main.scss": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "modules": {
+    "byIdentifier": {
+      "multi node_modules/next/dist/client/next": 0,
+      "css node_modules/css-loader/index.js??ref--5-1!node_modules/sass-loader/lib/loader.js??ref--5-2!styles/main.scss 0": 1
+    },
+    "usedIds": {
+      "0": 0,
+      "1": 1
+    }
+  },
+  "chunks": {
+    "byName": {
+      "commons": 0,
+      "static/runtime/webpack.js": 1,
+      "static/ND3nvBFXXi1zfH_yD3jiB/pages/_app.js": 2,
+      "static/ND3nvBFXXi1zfH_yD3jiB/pages/_error.js": 3,
+      "static/ND3nvBFXXi1zfH_yD3jiB/pages/about.js": 4,
+      "static/ND3nvBFXXi1zfH_yD3jiB/pages/blogs.js": 5,
+      "static/ND3nvBFXXi1zfH_yD3jiB/pages/cv.js": 6,
+      "static/ND3nvBFXXi1zfH_yD3jiB/pages/index.js": 7,
+      "static/ND3nvBFXXi1zfH_yD3jiB/pages/portfolio.js": 8,
+      "static/ND3nvBFXXi1zfH_yD3jiB/pages/portfolios.js": 9,
+      "static/runtime/main.js": 10
+    },
+    "bySource": {},
+    "usedIds": [
+      0,
+      1,
+      10,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  }
+}
