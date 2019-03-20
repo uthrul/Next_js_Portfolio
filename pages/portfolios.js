@@ -1,7 +1,7 @@
 import React from 'react';
 import BaseLayout from '../components/layouts/BaseLayout';
-import Link from 'next/link';
 
+import { Link } from '../routes';
 
 import axios from 'axios';
 
