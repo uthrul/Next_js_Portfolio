@@ -11,14 +11,12 @@ app
         const server = express()
 
         server.get('/portfolio/:id', (req, res) => {
-            console.log('serving /portfolio/:id requests!!!')
             const actualPage = '/portfolio'
             const queryParams = { id: req.params.id }
             app.render(req, res, actualPage, queryParams)
         })
 
         server.get('*', (req, res) => {
-            console.log('serving all of requests!!!')
             return handle(req, res)
         })
 
