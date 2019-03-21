@@ -7,17 +7,17 @@
       "publicPath": "static/chunks/0.js"
     }
   ],
-  "../../styles/main.scss": [
+  "bootstrap/dist/css/bootstrap.min.css": [
     {
-      "id": "./styles/main.scss",
-      "name": "./styles/main.scss",
+      "id": "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+      "name": "./node_modules/bootstrap/dist/css/bootstrap.min.css",
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
     }
   ],
   "undefined": [
     {
-      "id": 2,
+      "id": 1,
       "name": null,
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
@@ -29,10 +29,10 @@
       "publicPath": "static/chunks/styles.js"
     }
   ],
-  "bootstrap/dist/css/bootstrap.min.css": [
+  "../../styles/main.scss": [
     {
-      "id": "./node_modules/bootstrap/dist/css/bootstrap.min.css",
-      "name": "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+      "id": "./styles/main.scss",
+      "name": "./styles/main.scss",
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
     }
