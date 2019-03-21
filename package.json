@@ -21,6 +21,7 @@
     "next-routes": "^1.4.2",
     "node-sass": "^4.11.0",
     "react-dom": "^16.8.4",
+    "react-typed": "^1.1.2",
     "reactstrap": "^7.1.0"
   }
 }
