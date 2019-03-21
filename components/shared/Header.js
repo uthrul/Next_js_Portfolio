@@ -66,7 +66,7 @@ const BsNavLink = (props) => {
 
     return (
         <Link href={route}>
-            <a className="nav-link">{title}</a>
+            <a className="nav-link port-navbar-link">{title}</a>
         </Link>
     )
 }
@@ -88,24 +88,24 @@ export default class Example extends React.Component {
     render() {
         return (
             <div>
-                <Navbar color="light" light expand="md">
-                    <NavbarBrand href="/">Saud maruli Sihombing</NavbarBrand>
+                <Navbar className="port-navbar port-default absolute" color="transparent" light dark expand="md">
+                    <NavbarBrand className="port-navbar-brand" href="/">Saud maruli Sihombing</NavbarBrand>
                     <NavbarToggler onClick={this.toggle} />
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav className="ml-auto" navbar>
-                            <NavItem>
+                            <NavItem className="port-navbar-item">
                                 <BsNavLink route="/" title="Home" />
                             </NavItem>
-                            <NavItem>
+                            <NavItem className="port-navbar-item">
                                 <BsNavLink route="/about" title="About" />
-                            </NavItem>
-                            <NavItem>
+                            </NavItem >
+                            <NavItem className="port-navbar-item">
                                 <BsNavLink route="/portfolios" title="Portfolio" />
                             </NavItem>
-                            <NavItem>
+                            <NavItem className="port-navbar-item">
                                 <BsNavLink route="/blogs" title="Blog" />
                             </NavItem>
-                            <NavItem>
+                            <NavItem className="port-navbar-item">
                                 <BsNavLink route="/cv" title="Cv" />
                             </NavItem>
                         </Nav>
