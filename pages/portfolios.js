@@ -24,25 +24,25 @@ class Portfolios extends React.Component {
         return posts.map((post, index) => {
             return (
                 <li key={index}>
-                <Link as={`/portfolio/${post.id}`} href={`/portfolio?id=${post.id}`}>
-                    <a style={{ 'fontSize': '20px' }}> {post.title} </a>
-                </Link>
+                    <Link route={`/portfolio/${post.id}`}>
+                        <a style={{ 'fontSize': '20px' }}> {post.title} </a>
+                    </Link>
                 </li >
             )
-    })
-}
+        })
+    }
 
-render() {
-    const { posts } = this.props;
-    return (
-        <BaseLayout>
-            <h1>Portfolios page </h1>
-            <ul>
-                {this.renderPosts(posts)}
-            </ul>
-        </BaseLayout>
-    )
-}
+    render() {
+        const { posts } = this.props;
+        return (
+            <BaseLayout>
+                <h1>Portfolios page </h1>
+                <ul>
+                    {this.renderPosts(posts)}
+                </ul>
+            </BaseLayout>
+        )
+    }
 }
 
 

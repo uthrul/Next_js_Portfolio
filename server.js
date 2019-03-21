@@ -9,13 +9,13 @@ const handle = app.getRequestHandler(app)
 app
     .prepare()
     .then(() => {
-        const server = express()
+        const server = express();
 
         server.get('*', (req, res) => {
             return handle(req, res)
         })
 
-        server.user(handle).listen(3000, (err) => {
+        server.use(handle).listen(3000, (err) => {
             if (err) throw err
             console.log('> Ready on http://localhost:3000')
         })

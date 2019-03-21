@@ -1,5 +1,5 @@
 {
-  "name": "portfolio-saudMaruli",
+  "name": "portfolio-saudmaruli",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,12 +12,15 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@zeit/next-css": "^1.0.1",
     "@zeit/next-sass": "^1.0.1",
     "axios": "^0.18.0",
+    "bootstrap": "^4.3.1",
     "express": "^4.16.4",
     "next": "^8.0.3",
     "next-routes": "^1.4.2",
     "node-sass": "^4.11.0",
-    "react-dom": "^16.8.4"
+    "react-dom": "^16.8.4",
+    "reactstrap": "^7.1.0"
   }
 }
