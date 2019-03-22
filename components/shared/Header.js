@@ -1,52 +1,3 @@
-// import React from 'react';
-// import Link from 'next/link';
-
-// import '../../styles/main.scss'
-
-// class Header extends React.Component {
-//     render() {
-
-//         const title = this.props.title;
-//         return (
-//             <React.Fragment>
-//                 <Link href="/">
-//                     <a style={{'fontSize': '20px'}}> Home </a>
-//                 </Link>
-//                 ||
-//                 <Link href="/about">
-//                     <a> About </a>
-//                 </Link>
-//                 ||
-//                 <Link href="/portfolios">
-//                     <a> Portfolios </a>
-//                 </Link>
-//                 ||
-//                 <Link href="/blogs">
-//                     <a> Blogs </a>
-//                 </Link>
-//                 ||
-//                 <Link href="/cv">
-//                     <a> Cv </a>
-//                 </Link>
-//                 <style jsx>
-//                     {
-//                         `
-//                         a {
-//                             font-size: 20px
-//                         };
-//                         .customClass {
-//                             color: pink;
-//                         }
-//                         `
-//                     }
-//                 </style>
-//             </React.Fragment>
-//         )
-//     }
-// }
-
-// export default Header;
-
 import React from 'react';
 import Link from 'next/link';
 
@@ -61,6 +12,8 @@ import {
     NavLink,
 } from 'reactstrap';
 
+import auth0 from "../../services/auth0";
+
 const BsNavLink = (props) => {
     const { route, title } = props;
 
@@ -68,6 +21,18 @@ const BsNavLink = (props) => {
         <Link href={route}>
             <a className="nav-link port-navbar-link">{title}</a>
         </Link>
+    )
+}
+
+const Login = () => {
+    return (
+        <span onClick={auth0.login} className="nav-link port-navbar-link clickable">LogIn</span>
+    )
+}
+
+const Logout = () => {
+    return (
+        <span className="nav-link port-navbar-link clickable">LogOut</span>
     )
 }
 
@@ -107,6 +72,12 @@ export default class Example extends React.Component {
                             </NavItem>
                             <NavItem className="port-navbar-item">
                                 <BsNavLink route="/cv" title="Cv" />
+                            </NavItem>
+                            <NavItem className="port-navbar-item">
+                                <Login />
+                            </NavItem>
+                            <NavItem className="port-navbar-item">
+                                <Logout />
                             </NavItem>
                         </Nav>
                     </Collapse>
